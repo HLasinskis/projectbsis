@@ -24,7 +24,7 @@
                 <a href="#" class="nav-logo"></a>
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="Home.php" class="nav-link">Sākums</a>
+                        <a href="index.php" class="nav-link">Sākums</a>
                     </li>
                     <li class="nav-item">
                         <a href="Profils.php" class="nav-link">Profils</a>
