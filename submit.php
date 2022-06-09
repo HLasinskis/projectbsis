@@ -28,6 +28,6 @@ if (mysqli_query($conn, $query)) {
     echo "Error: " . $query . ":-" . mysqli_error($conn);
  }
  mysqli_close($conn);
- header('location:Home.php');
+ header('location:index.php');
 }
 ?>
