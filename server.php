@@ -46,7 +46,7 @@ if (isset($_POST['reg_user'])) {
   	mysqli_query($db, $query);
   	$_SESSION['username'] = $username;
   	$_SESSION['success'] = "Jūs esat pielogoti";
-  	header('location: home.php');
+  	header('location: index.php');
   }
 }
 
@@ -68,7 +68,7 @@ if (isset($_POST['login_user'])) {
   	if (mysqli_num_rows($results) == 1) {
   	  $_SESSION['username'] = $username;
   	  $_SESSION['success'] = "Jūs esat pieslēgti";
-  	  header('location: home.php');
+  	  header('location: index.php');
   	}else {
   		array_push($errors, "Nepareiza lietotājvārds vai parole");
   	}
